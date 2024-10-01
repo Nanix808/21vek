@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "21vek"
+version = "0.1.0"
+description = ""
+authors = ["savosinvitali <savosinvitali@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.6"
+pydantic-settings = "^2.5.2"
+alembic = "^1.13.3"
+sqlalchemy = "^2.0.35"
+asyncpg = "^0.29.0"
+redis = "^5.0.8"
+fastapi-cache2 = "^0.2.2"
+celery = "^5.4.0"
+flower = "^2.0.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
